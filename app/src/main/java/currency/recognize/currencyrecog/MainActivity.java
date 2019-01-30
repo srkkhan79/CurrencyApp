@@ -20,8 +20,13 @@ public class MainActivity extends AppCompatActivity {
         //hell0 aay
         //changes from shshrukh
         // Example of a call to a native method
+
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
+    }
+    public void mainemthod()
+    {
+
     }
 
     /**
