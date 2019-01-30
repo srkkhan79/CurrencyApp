@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //sstem out print
         //askdfs
+        //hell0 aay
         // Example of a call to a native method
-        //hello from shsh
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
