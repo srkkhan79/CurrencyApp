@@ -3,6 +3,7 @@ package currency.recognize.currencyrecog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //hell0 aay
         //changes from shshrukh
         // Example of a call to a native method
+
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
@@ -29,4 +31,10 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Toast.makeText(MainActivity.this, "Hey Hi", Toast.LENGTH_SHORT).show();
+    }
 }
