@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
+    public void mainemthod()
+    {
+
+    }
 
     /**
      * A native method that is implemented by the 'native-lib' native library,
