@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recordvideo"
+            android:icon="@drawable/ic_menu_recordvideo"
+            android:title="Record Video" />
+        <item
+            android:id="@+id/nav_sendtext"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send Text" />
+        <item
+            android:id="@+id/nav_recievedtext"
+            android:icon="@drawable/ic_menu_recievetxt"
+            android:title="Recived Text" />
+       <item
+            android:id="@+id/nav_videorecieved"
+            android:icon="@drawable/ic_action_recievedvideo"
+            android:title="Recived Video" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_name"
+            android:title="Logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "23893989855",
+    "firebase_url": "https://mycurrency-17894.firebaseio.com",
+    "project_id": "mycurrency-17894",
+    "storage_bucket": "mycurrency-17894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23893989855:android:2c61279a074615f7",
+        "android_client_info": {
+          "package_name": "currency.recognize.currencyrecog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23893989855-7tiojoni05va6l9tnnrqebmetc6hq8hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1RPf9Ll0FjqL7GgjvNT59EnTXLXE3Uss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

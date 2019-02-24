@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_action_dashboard"
+            android:title="Home" />
+        <item
+            android:id="@+id/record_Video"
+            android:icon="@drawable/ic_menu_recordvideo"
+            android:title="Recognize Currency" />
+        <item
+            android:id="@+id/reciev_video"
+            android:icon="@drawable/ic_sms"
+            android:visible="false"
+            android:title="Recieved Video" />
+        <item
+            android:id="@+id/sent_text"
+            android:icon="@drawable/ic_send"
+            android:visible="false"
+            android:title="Send Message" />
+        <item
+            android:id="@+id/custom_ges"
+            android:icon="@drawable/ic_gesture"
+            android:title="Custom Currency" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_action_setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/exit_me"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
+    </group>
+</menu>
